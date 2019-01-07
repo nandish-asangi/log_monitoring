@@ -1,0 +1,30 @@
+{
+  "name": "log_monitor",
+  "version": "1.0.0",
+  "description": "Log Monitoring Service with Socket Connection",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandish-asangi/log_monitoring.git"
+  },
+  "keywords": [
+    "Logs",
+    "Monitoring",
+    "Socket",
+    "NodeJS",
+    "AngularJS"
+  ],
+  "author": "Nandish Asangi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nandish-asangi/log_monitoring/issues"
+  },
+  "homepage": "https://github.com/nandish-asangi/log_monitoring#readme",
+  "dependencies": {
+    "randomstring": "^1.1.5",
+    "socket.io": "^2.2.0"
+  }
+}

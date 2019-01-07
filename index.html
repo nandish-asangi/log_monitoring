@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+    <head>
+        <script src='/socket.io/socket.io.js'></script>
+        <script>
+            var socket = io();
+            socket.on('logsSync', function(data) {
+                addMessage(data.message);
+            });
+
+            function addMessage(message) {
+                document.getElementById("messages").innerHTML = message;
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Dumping the Logs (logger.txt) - "tail -f"</h1>
+        <p id='messages'></p>
+    </body>
+</html>
